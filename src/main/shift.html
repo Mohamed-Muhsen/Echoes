@@ -787,91 +787,138 @@
         <!-- Section end -->
 
         <!-- Section start -->
-        <div id="clients_feedback" class="clients-feedback section panel overflow-hidden m-5">
-            <div class="section-outer panel">
-                <div class="container max-w-lg">
-                    <div class="section-inner panel swiper-parent" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});">
-                        <h2 class="h4 sm:h3 lg:h2 m-0 text-center">What clients said:</h2>
-                        <div class="panel p-3 lg:p-6 bg-secondary dark:bg-gray-800 rounded-3 mt-4 sm:mt-6">
-                            <div class="row child-cols-12 sm:child-cols-6 col-match g-3 lg:g-8">
-                                <div>
-                                    <div class="panel rounded-2 overflow-hidden">
-                                        <div class="swiper connect-image" data-uc-swiper="items: 1; autoplay: 5000; dots: .swiper-pagination; effect: fade; fade: true; allowTouchMove: false; disableOnInteraction: true;">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide">
-                                                    <figure class="featured-image m-0 rounded ratio ratio-3x4  uc-transition-toggle overflow-hidden">
-                                                        <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/portrait/01.jpg" alt="Mark Zellers">
-                                                    </figure>
+        <div id="main_features" class="main-features section panel">
+            <div class="section-outer panel py-6 xl:py-9">
+                <div class="container sm:max-w-md lg:max-w-lg xl:max-w-xl">
+                    <div class="section-inner panel">
+                        <div class="panel vstack gap-4 sm:gap-6 lg:gap-8">
+                            <div class="feature-item panel" data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;">
+                                <div class="row child-cols col-match justify-between g-4 lg:g-8 xl:g-10">
+                                    <div class="col-12 sm:col-6 order-0 lg:order-1">
+                                        <div class="panel w-100">
+                                            <img src="../assets/images/template/feature-01.svg" alt="Share tools quickly and confidently in minutes" class="rounded-2">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 sm:col-6 order-1 lg:order-0">
+                                        <div class="panel vstack justify-between gap-4 sm:gap-6 h-100">
+                                            <div>
+                                                <div class="panel vstack gap-2">
+                                                    <span class="fs-6 fw-bold m-0 text-primary">01.</span>
+                                                    <h3 class="h4 lg:h3 xl:h2 m-0">Share tools quickly and confidently in minutes</h3>
+                                                    <p class="fs-6 xl:fs-5 opacity-70 dark:opacity-80">This powerfull tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.</p>
                                                 </div>
-                                                <div class="swiper-slide">
-                                                    <figure class="featured-image m-0 rounded ratio ratio-3x4  uc-transition-toggle overflow-hidden">
-                                                        <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/portrait/02.jpg" alt="André Garcia">
-                                                    </figure>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <figure class="featured-image m-0 rounded ratio ratio-3x4  uc-transition-toggle overflow-hidden">
-                                                        <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/portrait/03.jpg" alt="Matt Henderson">
-                                                    </figure>
+                                            </div>
+                                            <div>
+                                                <div class="p-3 panel vstack gap-3 rounded border">
+                                                    <p class="fs-6 dark:text-white">“Most of our time used to be taken up by administrative work whereas now we can focus on building out programs to help our employees.”</p>
+                                                    <div class="panel hstack gap-1">
+                                                        <img class="w-40px rounded-circle" src="../assets/images/avatars/01.png" alt="Mark Zellers">
+                                                        <div class="panel vstack items-start gap-0">
+                                                            <h6 class="h6 m-0">Mark Zellers</h6>
+                                                            <span class="fs-7 opacity-70">Director of Human Resources.</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div class="panel">
-                                        <div class="swiper h-100" data-uc-swiper="connect: .connect-image; items: 1; autoplay: 5000; dots: .swiper-pagination; effect: fade; fade: true;">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide h-100">
-                                                    <div class="panel vstack justify-between items-center gap-2 lg:gap-4 h-100 text-center">
-                                                        <div class="panel">
-                                                            <i class="icon icon-4 unicon-quotes text-primary"></i>
-                                                            <p class="fs-6 sm:fs-5 lg:fs-4 fw-bold mt-1 sm:mt-4 dark:text-white">“Most of our time used to be taken up by administrative work whereas now we can focus on building out programs to help our employees. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                                Quas nisi consectetur adipisci eaque. Porro, atque.”</p>
-                                                        </div>
-                                                        <div class="panel pt-3">
-                                                            <div class="panel vstack items-center gap-narrow">
-                                                                <h6 class="h5 m-0">Mark Zellers</h6>
-                                                                <span class="fs-6 opacity-70">Director of Human Resources.</span>
-                                                            </div>
-                                                            <div class="panel mt-6">
-                                                                <div class="swiper-pagination text-primary m-0 justify-center"></div>
-                                                            </div>
+                            </div>
+                            <hr class="border-gray-100 dark:border-opacity-15 m-0 opacity-100" data-anime="onview: -200; width: [0, '100%']; easing: easeInOutExpo; duration: 750; delay: 100;">
+                            <div class="feature-item panel" data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;">
+                                <div class="row child-cols col-match justify-between g-4 lg:g-8 xl:g-10">
+                                    <div class="col-12 sm:col-6 order-0 lg:order-1">
+                                        <div class="panel w-100">
+                                            <img src="../assets/images/template/feature-02.svg" alt="Connect every part of your entire business" class="rounded-2">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 sm:col-6 order-1 lg:order-0">
+                                        <div class="panel vstack justify-between gap-4 sm:gap-6 h-100">
+                                            <div>
+                                                <div class="panel vstack gap-2">
+                                                    <span class="fs-6 fw-bold m-0 text-primary">02.</span>
+                                                    <h3 class="h4 lg:h3 xl:h2 m-0">Connect every part of your entire business</h3>
+                                                    <p class="fs-6 xl:fs-5 opacity-70 dark:opacity-80">Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.</p>
+                                                    <a href="#" class="uc-link fw-bold hstack gap-narrow">
+                                                        <span>See all integrations</span>
+                                                        <i class="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="p-3 panel vstack gap-3 rounded border">
+                                                    <p class="fs-6 dark:text-white">“I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”</p>
+                                                    <div class="panel hstack gap-1">
+                                                        <img class="w-40px rounded-circle" src="../assets/images/avatars/02.png" alt="Matt Henderson">
+                                                        <div class="panel vstack items-start gap-0">
+                                                            <h6 class="h6 m-0">Matt Henderson</h6>
+                                                            <span class="fs-7 opacity-70">Client Success Manager</span>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="swiper-slide h-100">
-                                                    <div class="panel vstack justify-between items-center gap-2 lg:gap-4 h-100 text-center">
-                                                        <div class="panel">
-                                                            <i class="icon icon-4 unicon-quotes text-primary"></i>
-                                                            <p class="fs-6 sm:fs-5 lg:fs-4 fw-bold mt-1 sm:mt-4 dark:text-white">“I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes and looks fantastic. <br> Dolor sit amet consectetur adipisicing elit. Quas nisi
-                                                                consectetur adipisci eaque. Porro, atque.”</p>
-                                                        </div>
-                                                        <div class="panel pt-3">
-                                                            <div class="panel vstack items-center gap-narrow">
-                                                                <h6 class="h5 m-0">André Garcia</h6>
-                                                                <span class="fs-6 opacity-70">Client Success Manager</span>
-                                                            </div>
-                                                            <div class="panel mt-6">
-                                                                <div class="swiper-pagination text-primary m-0 justify-center"></div>
-                                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="border-gray-100 dark:border-opacity-15 m-0 opacity-100" data-anime="onview: -200; width: [0, '100%']; easing: easeInOutExpo; duration: 750; delay: 100;">
+                            <div class="feature-item panel" data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;">
+                                <div class="row child-cols col-match justify-between g-4 lg:g-8 xl:g-10">
+                                    <div class="col-12 sm:col-6 order-0 lg:order-1">
+                                        <div class="panel w-100">
+                                            <img src="../assets/images/template/feature-03.svg" alt="Maintain compliance and control your apps" class="rounded-2">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 sm:col-6 order-1 lg:order-0">
+                                        <div class="panel vstack justify-between gap-4 sm:gap-6 h-100">
+                                            <div>
+                                                <div class="panel vstack gap-2">
+                                                    <span class="fs-6 fw-bold m-0 text-primary">03.</span>
+                                                    <h3 class="h4 lg:h3 xl:h2 m-0">Maintain compliance and control your apps</h3>
+                                                    <p class="fs-6 xl:fs-5 opacity-70 dark:opacity-80">Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks and lock all legal information to prevent costly mistakes.</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="p-3 panel vstack gap-3 rounded border">
+                                                    <p class="fs-6 dark:text-white">“This powerfull tool eliminates the need to leave Salesforce to get things done.”</p>
+                                                    <div class="panel hstack gap-1">
+                                                        <img class="w-40px rounded-circle" src="../assets/images/avatars/04.png" alt="Natalia Larsson">
+                                                        <div class="panel vstack items-start gap-0">
+                                                            <h6 class="h6 m-0">Natalia Larsson</h6>
+                                                            <span class="fs-7 opacity-70">Director of Sales Operations</span>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="swiper-slide h-100">
-                                                    <div class="panel vstack justify-between items-center gap-2 lg:gap-4 h-100 text-center">
-                                                        <div class="panel">
-                                                            <i class="icon icon-4 unicon-quotes text-primary"></i>
-                                                            <p class="fs-6 sm:fs-5 lg:fs-4 fw-bold mt-1 sm:mt-4 dark:text-white">“This powerfull tool eliminates the need to leave Salesforce to get things done, <br> quas libero placeat voluptates sed sequi? Corporis, earum vitae. <br> Tempore pariatur dignissimos coming
-                                                                for great tool of repellat quae a eaque culpa iusto fugit.”</p>
-                                                        </div>
-                                                        <div class="panel pt-3">
-                                                            <div class="panel vstack items-center gap-narrow">
-                                                                <h6 class="h5 m-0">Matt Henderson</h6>
-                                                                <span class="fs-6 opacity-70">Director of Sales Operations</span>
-                                                            </div>
-                                                            <div class="panel mt-6">
-                                                                <div class="swiper-pagination text-primary m-0 justify-center"></div>
-                                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="border-gray-100 dark:border-opacity-15 m-0 opacity-100" data-anime="onview: -200; width: [0, '100%']; easing: easeInOutExpo; duration: 750; delay: 100;">
+                            <div class="feature-item panel" data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;">
+                                <div class="row child-cols col-match justify-between g-4 lg:g-8 xl:g-10">
+                                    <div class="col-12 sm:col-6 order-0 lg:order-1">
+                                        <div class="panel w-100">
+                                            <img src="../assets/images/template/feature-04.svg" alt="Review quickly and confidently" class="rounded-2">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 sm:col-6 order-1 lg:order-0">
+                                        <div class="panel vstack justify-between gap-4 sm:gap-6 h-100">
+                                            <div>
+                                                <div class="panel vstack gap-2">
+                                                    <span class="fs-6 fw-bold m-0 text-primary">04.</span>
+                                                    <h3 class="h4 lg:h3 xl:h2 m-0">Review quickly and confidently</h3>
+                                                    <p class="fs-6 xl:fs-5 opacity-70 dark:opacity-80">Get real-time access to approvals, comments and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="p-3 panel vstack gap-3 rounded border">
+                                                    <p class="fs-6 dark:text-white">“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation.”</p>
+                                                    <div class="panel hstack gap-1">
+                                                        <img class="w-40px rounded-circle" src="../assets/images/avatars/03.png" alt="Sarah Edrissi">
+                                                        <div class="panel vstack items-start gap-0">
+                                                            <h6 class="h6 m-0">Sarah Edrissi</h6>
+                                                            <span class="fs-7 opacity-70">Lead Marketing</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1407,6 +1454,47 @@
                             </div>
                         </div>
                         <p class="text-center text-gray-900 dark:text-white text-opacity-70 mt-4 sm:mt-6 xl:mt-8" data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 0;">Prices exclude any applicable taxes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section end -->
+        <!-- Section start -->
+        <div id="cta" class="cta section panel overflow-hidden">
+            <div class="section-outer panel py-4 sm:py-6 xl:py-9 bg-secondary dark:bg-gray-800">
+                <div class="d-none lg:d-block" data-anime="onview: -100; targets: img; scale: [0.8, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 350;">
+                    <!-- <div class="position-absolute top-50 start-0 translate-middle-y ms-n6">
+                        <img class="w-200px xl:w-250px d-block dark:d-none" src="../assets/images/template/talking.svg" alt="talking">
+                        <img class="w-200px xl:w-250px d-none dark:d-block" src="../assets/images/template/talking-dark.svg" alt="talking-dark">
+                    </div>
+                    <div class="position-absolute top-50 end-0 translate-middle-y me-n6">
+                        <img class="w-200px xl:w-250px d-block dark:d-none" src="../assets/images/template/chatting.svg" alt="chatting">
+                        <img class="w-200px xl:w-250px d-none dark:d-block" src="../assets/images/template/chatting-dark.svg" alt="chatting-dark">
+                    </div> -->
+                </div>
+                <div class="d-none lg:d-block" data-anime="targets: >*; scale: [0, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 750});">
+                    <div class="position-absolute top-0 start-0 rotate-45" style="top: 40% !important; left: 24% !important;">
+                        <img class="w-32px text-gray-900 dark:text-white" src="../assets/images/template/star-1.svg" alt="star-1" data-uc-svg>
+                    </div>
+                    <div class="position-absolute bottom-0 ltr:end-0 rtl:start-0 rotate-45" style="bottom: 40% !important; right: 24% !important;">
+                        <img class="w-32px text-gray-900 dark:text-white" src="../assets/images/template/star-2.svg" alt="star-2" data-uc-svg>
+                    </div>
+                    <div class="position-absolute bottom-0 start-0" style="bottom: -4% !important; left: 28% !important;">
+                        <img class="w-100px xl:w-150px text-gray-900 dark:text-white text-opacity-20" src="../assets/images/template/arrow-3.svg" alt="arrow-1" data-uc-svg>
+                    </div>
+                </div>
+                <div class="container max-w-xl">
+                    <div class="section-inner panel">
+                        <div class="vstack items-center gap-2 sm:max-w-600px lg:max-w-650px mx-auto text-center" data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});">
+                            <h2 class="h3 sm:h1 xl:display-6 m-0">Continue your juerny or start new one <span class="text-primary">but smarter.</span></h2>
+                            <p class="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70 mt-1 lg:mt-2">Try Lexend today.</p>
+                            <div class="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 lg:mt-2">
+                                <a href="page-pricing.html" class="btn btn-md lg:btn-lg btn-primary text-white">Try Lexend today</a>
+                                <a href="#uc-contact-modal" class="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40" data-uc-toggle>Contact sales</a>
+                            </div>
+                            <p class="fs-7 text-dark dark:text-white text-opacity-70">14-day trial, no credit card required.</p>
+                        </div>
                     </div>
                 </div>
             </div>
