@@ -685,20 +685,7 @@
     </div>
 
     <!--  Bottom Actions Sticky -->
-    <div
-        class="backtotop-wrap position-fixed ltr:end-0 ltr:start-auto rtl:start-0 rtl:end-auto top-auto bottom-0 z-99 m-2 vstack">
-        <div class="darkmode-trigger cstack w-40px h-40px rounded-circle text-none bg-gray-100 dark:bg-gray-700 dark:text-white"
-            data-darkmode-toggle="">
-            <label class="switch">
-                <span class="sr-only">Dark mode toggle</span>
-                <input type="checkbox">
-                <span class="slider fs-5"></span>
-            </label>
-        </div>
-        <a class="btn btn-sm bg-primary text-white w-40px h-40px rounded-circle" href="to_top" data-uc-backtotop>
-            <i class="icon-2 unicon-chevron-up"></i>
-        </a>
-    </div>
+
 
     <!-- Header start -->
     <header class="uc-header header-default uc-navbar-sticky-wrap z-999 " style="--uc-nav-height: 80px"
@@ -722,23 +709,30 @@
                                     data-uc-drop="offset: 0; animation: uc-animation-slide-top-small; duration: 150;"
                                     style="min-width: 160px; padding: 8px 12px;"> <!-- البوكس أصغر -->
                                     <div class="uc-drop-grid row child-cols g-4" data-uc-grid>
-                                        <div>
+                                        <div class="flex flex-column justify-center"> 
                                             <ul class="uc-nav uc-navbar-dropdown-nav"
                                                 style="list-style: none; padding: 0; margin: 0;">
                                                 <li style="margin-bottom: 8px;">
                                                     <a href="shift.html"
-                                                        style="color: gray; font-size: 16px; text-decoration: none; transition: 0.3s;">
+                                                        style="color: gray; font-size: 16px; text-decoration: none; transition: 0.3s; display: flex; align-items: center; gap: 6px;">
+                                                        <img src="../assets/images/icons/Shift.png" alt="Shift Icon"
+
+                                                            style="width : 50px ;">
                                                         Shift
                                                     </a>
                                                 </li>
                                                 <li style="margin-bottom: 8px;">
                                                     <a href="eagle.html"
                                                         style="color: gray; font-size: 16px; text-decoration: none; transition: 0.3s;">
+                                                          <img src="../assets/images/icons/Eagle.png" alt="Shift Icon"
+
+                                                            style="width : 50px ; ">
                                                         Eagle
                                                     </a>
                                                 </li>
                                             </ul>
                                         </div>
+
                             </li>
                             <li><a href="blog.html">Insights</a></li>
                             <li><a href="page-about.html">About</a></li>
