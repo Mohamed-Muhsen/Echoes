@@ -686,7 +686,8 @@
     <!-- Header start -->
     <header class="uc-header header-default uc-navbar-sticky-wrap z-999 " style="--uc-nav-height: 80px"
         data-uc-sticky="start: 100vh; show-on-up: true; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;">
-        <nav class="uc-navbar-container uc-navbar-float ft-tertiary z-1">
+        <nav class="uc-navbar-container uc-navbar-float ft-tertiary z-1"
+            data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;">
             <div class="container max-w-xl">
                 <div class="uc-navbar min-h-64px lg:min-h-80px text-gray-900 dark:text-white"
                     data-uc-navbar="mode: click; animation: uc-animation-slide-top-small; duration: 150;">
@@ -697,130 +698,46 @@
                                 <img class="d-none dark:d-block" src="../assets/images/common/echoes.png " alt="Lexend">
                             </a>
                         </div>
-                        <ul class="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ms-2">
-                            <li><a href="page-features.html">Features</a></li>
-                            <li><a href="page-pricing.html">Pricing</a></li>
-                            <li><a href="blog.html">Insights</a></li>
-                            <li><a href="page-about.html">About</a></li>
-                            <li><a href="page-contact.html">Contact</a></li>
+                        <ul class="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex  fw-medium ms-2">
                             <li>
-                                <a href="#">More <span data-uc-navbar-parent-icon></span></a>
+                                <a href="#">Products <span data-uc-navbar-parent-icon></span></a>
                                 <div class="uc-navbar-dropdown"
-                                    data-uc-drop="mode: click; offset: 0; boundary: !.uc-navbar; stretch: x; animation: uc-animation-slide-top-small; duration: 150;">
+                                    data-uc-drop="offset: 0; animation: uc-animation-slide-top-small; duration: 150;"
+                                    style="min-width: 160px; padding: 8px 12px;"> <!-- البوكس أصغر -->
                                     <div class="uc-drop-grid row child-cols g-4" data-uc-grid>
                                         <div>
-                                            <div class="uc-drop-grid row child-cols g-4" data-uc-grid>
-                                                <div>
-                                                    <ul class="uc-nav uc-navbar-dropdown-nav">
-                                                        <li class="uc-nav-header">Main Pages</li>
-                                                        <li><a href="index.html">Home 01</a></li>
-                                                        <li><a href="index-2.html">Home 02</a></li>
-                                                        <li><a href="index-3.html">Home 03</a></li>
-                                                        <li><a href="index-4.html">Home 04</a></li>
-                                                        <li><a href="index-5.html">Home 05</a></li>
-                                                        <li><a href="index-6.html">Home 06</a></li>
-                                                        <li><a href="index-7.html">Home 07</a></li>
-                                                        <li><a href="index-8.html">Home 08</a></li>
-                                                        <li><a href="index-9.html">Home 09</a></li>
-                                                        <li><a href="index-10.html">Home 10</a></li>
-                                                        <li><a href="index-11.html">Home 11 <span
-                                                                    class="fw-bold text-primary fs-8 ms-1 px-1 border rounded-pill">NEW</span></a>
-                                                        </li>
-                                                        <li><a href="index-12.html">Home 12 <span
-                                                                    class="fw-bold text-primary fs-8 ms-1 px-1 border rounded-pill">NEW</span></a>
-                                                        </li>
-                                                        <li><a href="index-13.html">Home 13 <span
-                                                                    class="fw-bold text-primary fs-8 ms-1 px-1 border rounded-pill">NEW</span></a>
-                                                        </li>
-                                                        <li><a href="index-14.html">Home 14 <span
-                                                                    class="fw-bold text-primary fs-8 ms-1 px-1 border rounded-pill">NEW</span></a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div>
-                                                    <ul class="uc-nav uc-navbar-dropdown-nav">
-                                                        <li class="uc-nav-header">Inner Pages</li>
-                                                        <li><a href="page-features.html">Features</a></li>
-                                                        <li><a href="page-pricing.html">Pricing</a></li>
-                                                        <li><a href="page-pricing-2.html">Pricing v2</a></li>
-                                                        <li><a href="page-integrations.html">Integrations</a></li>
-                                                        <li><a href="page-about.html">About</a></li>
-                                                        <li><a href="page-career.html">Career</a></li>
-                                                        <li><a href="page-team.html">Team</a></li>
-                                                        <li><a href="page-career-detail.html">Job details</a></li>
-                                                        <li><a href="page-contact.html">Contact</a></li>
-                                                        <li><a href="page-contact-2.html">Contact v2</a></li>
-                                                        <li><a href="page-services.html">Services <span
-                                                                    class="fw-bold text-primary fs-8 ms-1 px-1 border rounded-pill">NEW</span></a>
-                                                        </li>
-                                                        <li><a href="page-services-detail.html">Single Service <span
-                                                                    class="fw-bold text-primary fs-8 ms-1 px-1 border rounded-pill">NEW</span></a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div>
-                                                    <ul class="uc-nav uc-navbar-dropdown-nav">
-                                                        <li class="uc-nav-header">CMS Pages</li>
-                                                        <li><a href="blog.html">Modern</a></li>
-                                                        <li><a href="blog-classic.html">Classic</a></li>
-                                                        <li><a href="blog-2cols.html">Grid 2 cols</a></li>
-                                                        <li><a href="blog-3cols.html">Grid 3 cols</a></li>
-                                                        <li><a href="blog-4cols.html">Grid 4 cols</a></li>
-                                                        <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-                                                        <li><a href="blog-category.html">Category</a></li>
-                                                        <li><a href="blog-author.html">Author</a></li>
-                                                        <li><a href="blog-details.html">Blog single</a></li>
-                                                        <li><a href="blog-details-2.html">Blog single v2</a></li>
-                                                        <li><a href="blog-details-3.html">Blog single v3</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div>
-                                                    <ul class="uc-nav uc-navbar-dropdown-nav">
-                                                        <li class="uc-nav-header">Shop Pages</li>
-                                                        <li><a href="shop.html">Grid 4 cols</a></li>
-                                                        <li><a href="shop-3.html">Grid 3 cols</a></li>
-                                                        <li><a href="shop-2.html">Grid 2 cols</a></li>
-                                                        <li><a href="shop-product-detail.html">Product detail</a></li>
-                                                        <li><a href="shop-product-detail-2.html">Product detail v2</a>
-                                                        </li>
-                                                        <li><a href="shop-cart.html">Cart</a></li>
-                                                        <li><a href="shop-cart-2.html">Cart v2</a></li>
-                                                        <li><a href="shop-checkout.html">Checkout</a></li>
-                                                        <li><a href="shop-checkout-2.html">Checkout v2</a></li>
-                                                        <li><a href="shop-order.html">Order confirmation</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div>
-                                                    <ul class="uc-nav uc-navbar-dropdown-nav">
-                                                        <li class="uc-nav-header">Other pages</li>
-                                                        <li><a href="components.html">All components</a></li>
-                                                        <li><a href="content-table.html">Content Table</a></li>
-                                                        <li><a href="index-4-rtl.html">RTL</a></li>
-                                                        <li><a href="sign-in.html">Sign in</a></li>
-                                                        <li><a href="sign-in-2.html">Sign in v2</a></li>
-                                                        <li><a href="sign-up.html">Sign up</a></li>
-                                                        <li><a href="sign-up-2.html">Sign up v2</a></li>
-                                                        <li><a href="reset-password.html">Reset password</a></li>
-                                                        <li><a href="reset-password-2.html">Reset password v2</a></li>
-                                                        <li><a href="404.html">404</a></li>
-                                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                                        <li><a href="page-terms.html">Terms of service</a></li>
-                                                        <li><a href="page-privacy.html">Privacy policy</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                            <ul class="uc-nav uc-navbar-dropdown-nav"
+                                                style="list-style: none; padding: 0; margin: 0;">
+                                                <li style="margin-bottom: 8px;">
+                                                    <a href="shift.html"
+                                                        style="color: gray; font-size: 16px; text-decoration: none; transition: 0.3s;">
+                                                        Shift
+                                                    </a>
+                                                </li>
+                                                <li style="margin-bottom: 8px;">
+                                                    <a href="eagle.html"
+                                                        style="color: gray; font-size: 16px; text-decoration: none; transition: 0.3s;">
+                                                        Eagle
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </div>
-                                    </div>
-                                </div>
                             </li>
+                            <li><a href="blog.html">Insights</a></li>
+                            <li><a href="page-about.html">About</a></li>
+                            <li><a href="blog-classic.html">blogs</a></li>
+                            <li><a href="page-contact.html">Contact</a></li>
+
                         </ul>
                     </div>
-
+                    <div class="uc-navbar-right">
+                        <a class="d-block lg:d-none" href="#uc-menu-panel" data-uc-navbar-toggle-icon
+                            data-uc-toggle></a>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-
     <!-- Header end -->
 
     <!-- Wrapper start -->
@@ -1170,7 +1087,9 @@
                                                         <div class="panel">
                                                             <div class="vstack gap-1">
                                                                 <h3 class="title h5 m-0 text-inherit">Scopes</h3>
-                                                                <p class="desc fs-6 opacity-70">(Multiple Scopes inventory)<br>Pioneering Role: new B2B distripution capacity</p>
+                                                                <p class="desc fs-6 opacity-70">(Multiple Scopes
+                                                                    inventory)<br>Pioneering Role: new B2B distripution
+                                                                    capacity</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1189,8 +1108,10 @@
                                                         <div class="panel">
                                                             <div class="vstack gap-1">
                                                                 <h3 class="title h5 m-0 text-inherit">Track Pricing</h3>
-                                                                <p class="desc fs-6 opacity-70">(Continuous Price Tracking)<br>Pioneering Role : Benfits from NDC price fluctuations
-                                                                    </p>
+                                                                <p class="desc fs-6 opacity-70">(Continuous Price
+                                                                    Tracking)<br>Pioneering Role : Benfits from NDC
+                                                                    price fluctuations
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1872,25 +1793,25 @@
                                             <!--<p>This powerfull tool eliminates the need to leave Salesforce to get things
                                                 done as I can create a custom proposal with dynamic pricing tables.</p>-->
                                         </div>
-               
+
                                     </div>
                                 </div>
                                 <div>
                                     <ul class="nav-y gap-1 fw-medium">
                                         <li><a href="page-about.html">About</a></li>
-              
+
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="nav-y gap-1 fw-medium">
                                         <li><a href="shop.html">Shop</a></li>
-                     
+
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="nav-y gap-1 fw-medium">
                                         <li><a href="request-demo.html">Request a demo</a></li>
-               
+
                                         <li><a href="reset-password-2.html">Reset password v2</a></li>
                                     </ul>
                                 </div>
@@ -1922,7 +1843,7 @@
                                     <li><a href="#"><i class="icon icon-2 unicon-logo-youtube"></i></a></li>
                                 </ul>
                                 <div class="vr"></div>
-                 
+
                             </div>
                         </div>
                     </div>
