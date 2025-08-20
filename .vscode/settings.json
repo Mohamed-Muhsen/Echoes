@@ -1,0 +1,14 @@
+{
+    "files.trimTrailingWhitespaceInRegexAndStrings": false,
+    "editor.fastScrollSensitivity": 3,
+    "workbench.colorTheme": "Bearded Theme Surprising Blueberry",
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.comments.insertSpace": false,
+    "editor.comments.ignoreEmptyLines": true,
+    "apple-swift-format.configSearchPaths": [],
+    "apple-swift-format.enable": false,
+    "bladeFormatter.format.enabled": false,
+    "bladeFormatter.format.indentInnerHtml": true,
+    "bladeFormatter.format.noSingleQuote": true,
+    "bladeFormatter.format.sortTailwindcssClasses": true
+}
