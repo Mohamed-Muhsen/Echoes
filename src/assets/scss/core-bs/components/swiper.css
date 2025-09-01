@@ -1,0 +1,7 @@
+.swiper .swiper-match > * {
+  display: flex;
+  flex-direction: column;
+}
+.swiper .swiper-match > * > * {
+  flex: 1;
+}/*# sourceMappingURL=swiper.css.map */

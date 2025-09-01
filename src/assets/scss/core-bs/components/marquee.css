@@ -1,0 +1,40 @@
+[data-uc-marquee] {
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
+  width: 100vw !important;
+  overflow: hidden;
+}
+[data-uc-marquee] > * {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: var(--gap, 16px);
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+[data-uc-marquee] > * > * {
+  white-space: nowrap;
+  animation: marquee var(--speed, 30s) linear infinite;
+}
+[data-uc-marquee].reverse > * > * {
+  animation-direction: reverse;
+}
+[data-uc-marquee].pause-on-hover:hover > * > * {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.uni-text-marquee {
+  position: relative;
+  top: -8px;
+}/*# sourceMappingURL=marquee.css.map */

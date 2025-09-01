@@ -1,0 +1,107 @@
+.nav-y {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-y > *,
+.nav-y > * > * {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.nav-y a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 200ms ease;
+}
+.nav-y a:hover {
+  opacity: 1 !important;
+}
+.nav-y .uc-nav-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  gap: 0.25rem;
+  width: 100%;
+  margin: 0;
+  padding: 8px 0 8px 16px;
+  list-style: none;
+  opacity: 0;
+  transition: 200ms ease;
+}
+.nav-y .uc-nav-sub a {
+  font-size: 90%;
+}
+.nav-y .uc-nav-sub .uc-parent::after {
+  font-size: 1rem;
+}
+.nav-y > .uc-parent > .uc-nav-sub {
+  padding-top: 0.5rem;
+}
+.nav-y .uc-parent {
+  position: relative;
+  display: block;
+}
+.nav-y .uc-parent > a {
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+.nav-y .uc-parent > a::after {
+  content: "\e940";
+  font-family: "Unicons";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 1.125rem;
+  font-weight: bold;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+.nav-y .uc-parent.uc-open > a::after {
+  content: "\e93f";
+}
+.nav-y .uc-parent.uc-open .uc-nav-sub {
+  opacity: 1;
+}
+.nav-y:hover a {
+  opacity: 0.6;
+}
+.nav-x {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-x > *,
+.nav-x > * > * {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.nav-x a {
+  text-decoration: none;
+  color: inherit;
+}
+.nav-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-reset a {
+  text-decoration: none;
+  color: currentColor;
+}/*# sourceMappingURL=nav.css.map */

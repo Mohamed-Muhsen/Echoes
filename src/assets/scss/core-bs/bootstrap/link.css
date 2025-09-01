@@ -1,0 +1,6 @@
+.uc-link {
+  color: var(--color-primary);
+}
+.uc-link:hover {
+  color: var(--color-primary-600);
+}/*# sourceMappingURL=link.css.map */
