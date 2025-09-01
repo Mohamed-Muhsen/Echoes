@@ -1,33 +1,33 @@
-# README #
+# README
 
-Lexend - Multi-Layout SaaS Website Template with UniCore docs included
+Echoes - Multi-Layout SaaS Website Template with UniCore docs included
 
-### Where are the docs? ###
+### Where are the docs?
 
-* Formal documentation is located at *docs/index.html* - accessible from the **Docs** link on main demo page.
-* You can style and customize the template components at *assets/scss/theme*.
+- Formal documentation is located at _docs/index.html_ - accessible from the **Docs** link on main demo page.
+- You can style and customize the template components at _assets/scss/theme_.
 
-### Getting Set Up ###
+### Getting Set Up
 
 Setup instructions are located in the docs mentioned above.
 
 The short version:
 
-``` npm install ```
+`npm install`
 
-``` npm run dev ```
+`npm run dev`
 
-``` npm run build ```
+`npm run build`
 
-``` npm run css:debug ```
+`npm run css:debug`
 
-### Getting Support ###
+### Getting Support
 
 UniStudio provides support for bugfixes and guidance on using the template.
 
 To access support, find the support link in our website footer or from the customer care dashboard or on ThemeForest support form.
 
-### Giving Feedback ###
+### Giving Feedback
 
 We strive to improve our products and we rely on feedback from our customers.
 

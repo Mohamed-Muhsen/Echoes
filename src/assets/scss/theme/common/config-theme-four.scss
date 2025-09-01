@@ -31,12 +31,17 @@ $grid-row-columns:            12;
 $container-padding-x:         32px;
 
 $template-colors: (
-    'primary': #93E85F, // #ce0f2e | #ff5d2c
-    'secondary': #fcf0e7,
-    'tertiary': #025864, // #fad24b
-    'quaternary': #d4d7c2,
-    'gray': #31393a,
+    'primary': #FF6A68, // #ce0f2e | #ff5d2c
+    'yellow': #ffef5e,
+    'gray': #f5f5f5, // #fad24b
+    'green': #1AD598,
+    'blue': #012538,
 );
+
+$template-colors: ( 'color': ( 'primary': #FF6A68, // #ce0f2e | #ff5d2c
+ 'yellow': #ffef5e, 'gray': #f5f5f5, 'green': #1AD598, 'blue': #012538   ), );
+
+
 
 // Design system config map
 $config: (
