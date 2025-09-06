@@ -171,7 +171,7 @@ const createColorConfig = (colorBase, name) => {
 const colors = reactive({
     'primary': '#3f51b5',
     'secondary': '#ff5722',
-    'tertiary': '#7e57c2',
+    'tertiary': '#FF6A68',
     'darkgrey': '#616161',
     'gray': '#9e9e9e',
 });

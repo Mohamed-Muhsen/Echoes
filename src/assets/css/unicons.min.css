@@ -17,8 +17,8 @@ color : #FF6A68;
 }
 
   .uc-accordion-title::before {
-  color: white;
-  background-color: #FF6A68 !important;
+  color: 012538;
+  background-color: transparent !important;
 
 }
 
@@ -254,8 +254,7 @@ color : #FF6A68;
 
 
 .uc-subnav-pill > .uc-active > a {
-  background-color: #ffef5e !important;
-  color: white ;
+  color: white  !important;
 }
 
 #pricing-paygo,
@@ -456,4 +455,71 @@ color : #FF6A68;
 
 .uc-navbar-nav li:hover > a .custom-arrow {
   transform: rotate(225deg); /* يخليه يلف لفوق وقت الهوفر */
+}
+
+.icon-box svg {
+  fill: #6c757d;  /* ده لون الـ gray */
+}
+
+
+
+#shrink12{
+  width: 100px !important;
+  height: 70px !important;
+}
+
+
+#shrink123{
+  width: 70px !important;
+  height: 70px !important;
+}
+
+#contact{
+  text-decoration: none !important;
+}
+
+#contact:hover{
+  text-decoration: underline !important;
+}
+
+@media (min-width: 1600px) {
+  #hero_header {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+}
+
+
+#bookingForm p {
+  margin-top: 8px !important; /* بدل 16px */
+}
+#formMessage {
+  margin-top: 8px !important; /* بدل 24px */
+}
+
+
+select.form-control {
+  appearance: none;        /* يشيل السهم الافتراضي */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") no-repeat right 12px center;
+  background-size: 16px;
+  padding-right: 32px;   /* مساحة للسهم */
+}
+
+/* تحريك السهم لليسار أكثر */
+select.form-control.custom-arrow {
+  background-position: right 4px center; /* بدّل 12px بـ 4px */
+}
+
+select.form-control {
+  height: 48px;             /* ارتفاع ثابت */
+  line-height: normal;      /* خلي النص ياخد راحته */
+  padding: 10px 40px 10px 12px; /* padding علشان السهم والنص */
+  display: flex;
+  align-items: center;      /* يخلي النص متوسّط عمودي */
 }

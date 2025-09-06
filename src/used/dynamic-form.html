@@ -713,19 +713,49 @@
 
     <!-- Wrapper start -->
     <div id="wrapper" class="wrap">
-        <br><br>
+        <br><br><br><br><br>
         <div class="section panel">
-            <div class="panel py-4 lg:py-6 xl:py-6">
+            <div class="panel py-2">
                 <div class="container">
-                    <div class="row child-cols-12 items-center justify-center g-4 xl:g-6">
+                    <div class="row child-cols-12 items-center justify-center g-3 xl:g-2">
+
+                        <div class="vstack items-center    max-w-750px mx-auto text-center">
+                            <img id="hero-logo" class="logo-eagle" src="../assets/images/EchoesPart/Eagle-bg.png"
+                                alt="Logo" style="margin-bottom: -40px !important;">
+
+                        </div>
                         <div class="md:col-8">
                             <div class="uc-main panel overflow-hidden w-100 fs-6 lg:fs-5">
-                                <div class="row child-cols-12 g-2 lg:g-4">
+                                <div class="row child-cols-12  ">
                                     <div>
-                                        <div class="panel p-2 lg:p-4 xl:p-6 rounded-1-5 lg:rounded-2 overflow-hidden bg-primary-25 dark:bg-gray-800"
+                                        <div class="panel p-2 lg:p-4 xl:p-6 rounded-1-5 lg:rounded-2 overflow-hidden  dark:bg-gray-800"
                                             data-anime="onview: true; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 350; delay: 0;">
                                             <div
                                                 class="panel vstack justify-center items-center gap-2 sm:gap-4 text-center max-w-600px mx-auto">
+                                                <div
+                                                    class="vstack items-center gap-2 lg:gap-2 mb-2 sm:mb-2 lg:mb-4 max-w-750px mx-auto text-center">
+
+                                                    <p class="  lg:display-6 xl:display-5 m-0"
+                                                        style="font-size: 50px !important;">
+
+                                                        Start Free Trial
+                                                    </p>
+                                                    <p class="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
+                                                        Feel free to reach out to
+                                                        us using the options below, and our dedicated team will respond
+                                                        to your inquiries
+                                                        promptly.</p>
+                                                    <p class="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
+
+                                                        <span
+                                                            style=" margin-top: 10px !important; font-weight: bold !important;"
+                                                            class="text-green
+                                                ">14
+                                                            days
+                                                            free trial, No credit
+                                                            card required </span>
+                                                    </p>
+                                                </div>
                                                 <form id="bookingForm" action="process_booking.php" method="POST"
                                                     class="vstack gap-2">
                                                     <input type="hidden" name="csrf_token" value="">
@@ -740,6 +770,7 @@
                                                             type="text" name="last_name" placeholder="Last name*"
                                                             required data-validation="required">
                                                     </div>
+
                                                     <div class="vstack lg:hstack gap-2">
                                                         <input
                                                             class="form-control h-48px w-100 md:w-1/2 bg-white dark:bg-opacity-0 dark:text-white dark:border-gray-300 dark:border-opacity-30"
@@ -750,20 +781,172 @@
                                                             type="tel" name="phone" placeholder="Phone number*" required
                                                             data-validation="required">
                                                     </div>
-                                                    <input
-                                                        class="form-control h-48px w-full bg-white dark:bg-opacity-0 dark:text-white dark:border-gray-300 dark:border-opacity-30"
-                                                        type="text" name="company" placeholder="Company name*" required
-                                                        data-validation="required">
+
+                                                    <div class="vstack lg:hstack gap-2">
+                                                        <input
+                                                            class="form-control h-48px w-100 md:w-1/2 bg-white dark:bg-opacity-0 dark:text-white dark:border-gray-300 dark:border-opacity-30"
+                                                            type="text" name="job_title" placeholder="Company Name*"
+                                                            required data-validation="required">
+                                                        <input
+                                                            class="form-control h-48px w-100 md:w-1/2 bg-white dark:bg-opacity-0 dark:text-white dark:border-gray-300 dark:border-opacity-30"
+                                                            type="text" name="job_title" placeholder="Job title*"
+                                                            required data-validation="required">
+                                                    </div>
+
+                                                    <!-- New fields -->
+                                                    <div class="vstack lg:hstack gap-2">
+                                                        <!-- Country Select -->
+                                                        <select
+                                                            class="form-control h-48px w-110 md:w-1/2 bg-white"
+                                                            name="country" required data-validation="required">
+                                                            <option selected value="">Select Country*</option>
+                                                            <option value="Afghanistan">Afghanistan</option>
+                                                            <option value="Albania">Albania</option>
+                                                            <option value="Algeria">Algeria</option>
+                                                            <option value="Andorra">Andorra</option>
+                                                            <option value="Angola">Angola</option>
+                                                            <option value="Argentina">Argentina</option>
+                                                            <option value="Armenia">Armenia</option>
+                                                            <option value="Australia">Australia</option>
+                                                            <option value="Austria">Austria</option>
+                                                            <option value="Azerbaijan">Azerbaijan</option>
+                                                            <option value="Bahrain">Bahrain</option>
+                                                            <option value="Bangladesh">Bangladesh</option>
+                                                            <option value="Belgium">Belgium</option>
+                                                            <option value="Brazil">Brazil</option>
+                                                            <option value="Bulgaria">Bulgaria</option>
+                                                            <option value="Canada">Canada</option>
+                                                            <option value="China">China</option>
+                                                            <option value="Croatia">Croatia</option>
+                                                            <option value="Cyprus">Cyprus</option>
+                                                            <option value="Czech Republic">Czech Republic</option>
+                                                            <option value="Denmark">Denmark</option>
+                                                            <option value="Egypt">Egypt</option>
+                                                            <option value="Finland">Finland</option>
+                                                            <option value="France">France</option>
+                                                            <option value="Germany">Germany</option>
+                                                            <option value="Greece">Greece</option>
+                                                            <option value="Hungary">Hungary</option>
+                                                            <option value="Iceland">Iceland</option>
+                                                            <option value="India">India</option>
+                                                            <option value="Indonesia">Indonesia</option>
+                                                            <option value="Iran">Iran</option>
+                                                            <option value="Iraq">Iraq</option>
+                                                            <option value="Ireland">Ireland</option>
+                                                            <option value="Italy">Italy</option>
+                                                            <option value="Japan">Japan</option>
+                                                            <option value="Jordan">Jordan</option>
+                                                            <option value="Kenya">Kenya</option>
+                                                            <option value="Kuwait">Kuwait</option>
+                                                            <option value="Lebanon">Lebanon</option>
+                                                            <option value="Libya">Libya</option>
+                                                            <option value="Luxembourg">Luxembourg</option>
+                                                            <option value="Malaysia">Malaysia</option>
+                                                            <option value="Maldives">Maldives</option>
+                                                            <option value="Mexico">Mexico</option>
+                                                            <option value="Morocco">Morocco</option>
+                                                            <option value="Netherlands">Netherlands</option>
+                                                            <option value="New Zealand">New Zealand</option>
+                                                            <option value="Nigeria">Nigeria</option>
+                                                            <option value="Norway">Norway</option>
+                                                            <option value="Oman">Oman</option>
+                                                            <option value="Pakistan">Pakistan</option>
+                                                            <option value="Palestine">Palestine</option>
+                                                            <option value="Philippines">Philippines</option>
+                                                            <option value="Poland">Poland</option>
+                                                            <option value="Portugal">Portugal</option>
+                                                            <option value="Qatar">Qatar</option>
+                                                            <option value="Romania">Romania</option>
+                                                            <option value="Russia">Russia</option>
+                                                            <option value="Saudi Arabia">Saudi Arabia</option>
+                                                            <option value="Singapore">Singapore</option>
+                                                            <option value="South Africa">South Africa</option>
+                                                            <option value="South Korea">South Korea</option>
+                                                            <option value="Spain">Spain</option>
+                                                            <option value="Sudan">Sudan</option>
+                                                            <option value="Sweden">Sweden</option>
+                                                            <option value="Switzerland">Switzerland</option>
+                                                            <option value="Syria">Syria</option>
+                                                            <option value="Thailand">Thailand</option>
+                                                            <option value="Tunisia">Tunisia</option>
+                                                            <option value="Turkey">Turkey</option>
+                                                            <option value="UAE">UAE</option>
+                                                            <option value="UK">United Kingdom</option>
+                                                            <option value="USA">United States</option>
+                                                            <option value="Yemen">Yemen</option>
+                                                        </select>
+
+                                                        <!-- City Input -->
+                                                        <input
+                                                            class="form-control h-48px w-100 md:w-1/2 bg-white dark:bg-opacity-0 dark:text-white dark:border-gray-300 dark:border-opacity-30"
+                                                            type="text" name="city" placeholder="City*" required
+                                                            data-validation="required">
+                                                    </div>
+
+
+                                                    <div class="vstack gap-2 mt-3">
+                                                        <label class="fw-bold">Which services are you interested
+                                                            in?</label>
+
+                                                        <div class="d-flex gap-8 flex-wrap align-items-center">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    name="services[]" value="Eagle Flights" id="flights"
+                                                                    checked>
+                                                                <label class="form-check-label" for="flights">Eagle
+                                                                    Flights</label>
+                                                            </div>
+
+
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    name="services[]" value="Eagle Stays" id="stays">
+                                                                <label class="form-check-label" for="stays">Eagle
+                                                                    Stays</label>
+                                                            </div>
+
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    name="services[]" value="Eagle Transportation"
+                                                                    id="transportation">
+                                                                <label class="form-check-label"
+                                                                    for="transportation">Eagle Transportation</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <!-- End new fields -->
+
                                                     <textarea
                                                         class="form-control min-h-150px w-full bg-white dark:bg-opacity-0 dark:text-white dark:border-gray-300 dark:border-opacity-30"
-                                                        name="message" placeholder="Your message.."></textarea>
+                                                        name="message"
+                                                        placeholder="Brief about your company.."></textarea>
+                                                    <div class="form-check mt-1 text-start">
+                                                        <input class="form-check-input" type="checkbox" id="terms"
+                                                            required>
+                                                        <label class="form-check-label" for="terms">
+                                                            I accept the <a href="terms.html" target="_blank">Terms &
+                                                                Conditions</a>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="form-check mt-1 text-start">
+                                                        <input class="form-check-input" type="checkbox" id="newsletter"
+                                                            name="newsletter">
+                                                        <label class="form-check-label" for="newsletter">
+                                                            Subscribe to our Newsletter
+                                                        </label>
+                                                    </div>
+
                                                     <button
                                                         class="btn btn-primary btn-md lg:btn-lg fw-bold text-white dark:bg-tertiary dark:text-primary mt-2"
-                                                        type="submit">Schedule my demo</button>
+                                                        type="submit">Send inquiry</button>
                                                     <p class="fs-7 opacity-70 mt-2 text-center">We'll tailor your demo
                                                         to your immediate needs and answer all your questions. Get ready
                                                         to see how it works!</p>
                                                 </form>
+
                                                 <div id="formMessage" class="mt-4"></div>
                                             </div>
                                         </div>
@@ -775,6 +958,105 @@
                 </div>
             </div>
         </div>
+
+        <div id="pricing" class="pricing section panel overflow-hidden bg-gray">
+            <div class="section-outer panel bg-gray">
+                <br><br>
+                <div class="container bg-gray">
+                    <div class="section-inner panel">
+                        <br>
+                        <div class="pricing-tables panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-3"
+                            data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+
+                            <!-- العنوان -->
+                            <div class="section-header vstack items-center gap-2 lg:gap-3">
+                                <span
+                                    class="fs-7 fw-medium py-narrow px-2 border rounded-pill text-blue ">Pricing</span>
+                                <h2 class="h4 sm:h3 lg:h2 m-0 text-center max-w-650px mx-auto text-blue">
+                                    Affordable prices and scalable plans
+                                    <span class="d-inline-flex px-1 text-green rounded-1 lg:rounded-1-5"
+                                        style="height: 50px; margin-top: 10px !important;"
+                                        data-anime="targets: > *; translateY: [-5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 250; delay: anime.stagger(50); ">
+                                        to fit any business size
+                                    </span>
+                                </h2>
+                            </div>
+
+                            <!-- البوكس -->
+                            <div class="panel vstack gap-3 p-4 bg-blue text-dark rounded-2 shadow-md pricing-box">
+
+                                <!-- Currency Switch -->
+                                <div class="currency-switch self-end bg-green">
+                                    <button id="usdBtn" class="currency-btn active">USD</button>
+                                    <button id="egpBtn" class="currency-btn">EGP</button>
+                                </div>
+
+
+
+                                <!-- عنوان البوكس -->
+                                <h2 class="text-gray">Simple Pay As You Go Pricing</h2>
+                                <p class="subtitle opacity-50 text-gray">
+                                    Only pay for what you use with all features included. Flexible pricing for
+                                    businesses of all sizes.
+                                </p>
+
+                                <!-- السلايدر -->
+                                <input type="range" id="requestRange" min="0" max="5" step="1" value="2" class="w-100">
+
+                                <div class="slider-labels" id="sliderLabels"></div>
+
+                                <!-- Pricing Info -->
+                                <div class="pricing-info hstack justify-center gap-1">
+                                    <h3 id="totalPrice" class="text-gray">$99</h3>
+                                    <h3>per</h3>
+                                    <h3 id="requestCount" class="text-gray">100,000</h3>
+                                    <h3>API requsets</h3>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+        </div>
+        <div class="uc-footer-cta bg-primary py-4 sm:py-6 border-bottom">
+            <div class="container max-w-xl">
+                <div
+                    class="uc-footer-inner panel vstack lg:hstack justify-between items-center text-center ltr:lg:text-start rtl:lg:text-end gap-3 sm:gap-4">
+                    <div class="vstack gap-2">
+                        <h2 class="h3 xl:h2 m-0 text-white">Subscribe to our Newsletter</h2>
+                        <p class="fs-7 text-gray-200 opacity-80 m-0">
+                            Want to stay up-to-date on the latest in travel? Subscribe to our weekly newsletter <br> for
+                            a
+                            dose
+                            of the travel industry's freshest news, insights on cutting-edge travel <br> technology, and
+                            exclusive updates about our company's products. Join our <br> community of travel
+                            enthusiasts
+                            and
+                            professionals today!
+                        </p>
+
+                    </div>
+                    <div class="panel w-100 sm:w-350px xl:w-450px">
+                        <form class="row child-cols g-1">
+                            <div>
+                                <div class="form-group inline-block">
+                                    <input type="email"
+                                        class="form-control rounded-default h-48px w-full text-black bg-white"
+                                        placeholder="Your email.." required="">
+                                </div>
+                            </div>
+                            <div class="col-12 sm:col-auto">
+                                <button
+                                    class="btn btn-md btn-blue rounded-default w-full h-48px text-white">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <!-- Wrapper end -->
@@ -934,6 +1216,84 @@
         } else if (getSchema === 'light') {
             setDarkMode(0);
         }
+    </script>
+
+        <script>const range = document.getElementById("requestRange");
+        const requestCount = document.getElementById("requestCount");
+        const totalPrice = document.getElementById("totalPrice");
+        const sliderLabels = document.getElementById("sliderLabels");
+
+        const usdBtn = document.getElementById("usdBtn");
+        const egpBtn = document.getElementById("egpBtn");
+
+        let currency = "USD";
+        const rateEGP = 49;
+
+        const plans = [
+            { price: 0, credits: 500, label: "Free" },
+            { price: 39, credits: 10000 },
+            { price: 99, credits: 100000, old: 300 },
+            { price: 279, credits: 300000, old: 1170 },
+            { price: 529, credits: 600000, old: 2340 },
+            { price: 829, credits: 1000000, old: 3900 },
+        ];
+
+        function updateLabels() {
+            sliderLabels.innerHTML = "";
+            plans.forEach(plan => {
+                const price = currency === "USD" ? `$${plan.price}` : `${plan.price * rateEGP} EGP`;
+                const oldPrice = plan.old
+                    ? (currency === "USD" ? `<s>$${plan.old}</s>` : `<s>${plan.old * rateEGP} EGP</s>`)
+                    : "";
+                sliderLabels.innerHTML += `
+            <div>
+                <strong>${plan.label || price} ${oldPrice}</strong>
+                <div>${plan.credits.toLocaleString()} API requests</div>
+            </div>
+        `;
+            });
+        }
+
+        function updatePrice(index) {
+            const plan = plans[index];
+            const price = currency === "USD"
+                ? `$${plan.price.toFixed()}`
+                : `${(plan.price * rateEGP).toFixed()} EGP`;
+
+            requestCount.textContent = plan.credits.toLocaleString();
+            totalPrice.textContent = price;
+
+            const percent = (index / (plans.length - 1)) * 100;
+            range.style.setProperty("--value", percent + "%");
+        }
+
+        function setCurrency(newCurrency) {
+            currency = newCurrency;
+
+            if (currency === "USD") {
+                usdBtn.classList.add("active");
+                egpBtn.classList.remove("active");
+            } else {
+                egpBtn.classList.add("active");
+                usdBtn.classList.remove("active");
+            }
+
+            updateLabels();
+            updatePrice(parseInt(range.value));
+        }
+
+        usdBtn.addEventListener("click", () => setCurrency("USD"));
+        egpBtn.addEventListener("click", () => setCurrency("EGP"));
+
+        range.addEventListener("input", function () {
+            updatePrice(parseInt(this.value));
+        });
+
+        // Init
+        setCurrency("USD"); // default
+        updateLabels();
+        updatePrice(range.value);
+
     </script>
 </body>
 

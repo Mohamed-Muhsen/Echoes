@@ -139,11 +139,11 @@
         opacity: .2;
     }
     .swiper-pagination-bullet-active {
-        background-color: currentColor;
+        background-color: #FF6A68;
         opacity: 1;
     }
     .swiper-slide-thumb-active {
-        color: currentColor;
+        color: #FF6A68;
     }
     &::before {
         border-bottom-color: rgba(255, 255, 255, 0.05);
