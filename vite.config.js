@@ -29,7 +29,7 @@ export default defineConfig({
     }
   },
 server: {
-  open: '/main/index.html',
+  open: '/index.html',
   port: 3000,
 }
 
