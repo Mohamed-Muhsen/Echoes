@@ -28,9 +28,9 @@ export default defineConfig({
       }
     }
   },
-  server: {
-    // auto open this page
-    open: '/index.html',
-    port: 3000,
-  }
+server: {
+  open: '/main/home.html',
+  port: 3000,
+}
+
 });

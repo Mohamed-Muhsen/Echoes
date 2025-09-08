@@ -185,7 +185,7 @@
 @font-face {
     font-family: "Echoes";
     src: local("Echoes Regular"),
-         url('../fonts/lexend/Echoes-Regular.ttf');
+         url('../fonts/Echoes/Echoes-Regular.ttf');
     font-weight: 400;
     text-rendering: optimizeLegibility;
     font-display: swap;
@@ -194,7 +194,7 @@
 @font-face {
     font-family: "Echoes";
     src: local("Echoes SemiBold"),
-        url('../fonts/lexend/Echoes-SemiBold.ttf');
+        url('../fonts/Echoes/Echoes-SemiBold.ttf');
     font-weight: 700;
     text-rendering: optimizeLegibility;
     font-display: swap;
