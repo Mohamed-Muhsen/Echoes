@@ -5,7 +5,7 @@ Echoes - Multi-Layout SaaS Website Template with UniCore docs included
 ### Where are the docs?
 
 - Formal documentation is located at _docs/index.html_ - accessible from the **Docs** link on main demo page.
-- You can style and customize the template components at _assets/scss/theme_.
+- You can style and customize the template components at _././assets/scss/theme_.
 
 ### Getting Set Up
 
